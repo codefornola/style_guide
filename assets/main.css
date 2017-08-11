@@ -12,20 +12,35 @@
   --brand-gradient-accent-webkit: -webkit-linear-gradient(top,  var(--brand-sky-highlight) 0%,var(--brand-grey-accent) 25%,white 45%); /* Chrome10-25,Safari5.1-6 */
   --brand-gradient-accent-ms: progid:DXImageTransform.Microsoft.gradient( startColorstr='var(--brand-grey-accent)', endColorstr='white',GradientType=0 ); /* IE6-9 */
 }
-.brand-gold {
+.brand-bg-gold {
   background-color: var(--brand-gold);
 }
-.brand-red {
+.brand-bg-red {
   background-color: var(--brand-red);
 }
-.brand-blue {
+.brand-bg-blue {
   background-color: var(--brand-blue);
 }
-.brand-accent {
+.brand-bg-accent {
   background-color: var(--brand-grey-accent);
 }
-.brand-highlight {
+.brand-bg-highlight {
   background-color: var(--brand-sky-highlight);
+}
+.brand-gold {
+  color: var(--brand-gold);
+}
+.brand-red {
+  color: var(--brand-red);
+}
+.brand-blue {
+  color: var(--brand-blue);
+}
+.brand-accent {
+  color: var(--brand-grey-accent);
+}
+.brand-highlight {
+  color: var(--brand-sky-highlight);
 }
 body {
   background: white; /* Old browsers */
@@ -77,6 +92,28 @@ h2 {
   font-size: 40px;
   color: var(--brand-blue);
 }
+h3 {
+  font-family: var(--mono);
+  font-size: 36px;
+  color: var(--brand-blue);
+}
+h4 {
+  font-family: var(--mono);
+  font-size: 32px;
+  color: var(--brand-blue);
+}
+h5 {
+  font-family: var(--mono);
+  font-size: 28px;
+  color: var(--brand-blue);
+  text-decoration: underline;
+}
+h6 {
+  font-family: var(--mono);
+  font-size: 24px;
+  color: var(--brand-blue);
+  text-decoration: underline;
+}
 .content {
   background-color: white;
   z-index: 0;
@@ -92,8 +129,8 @@ h2 {
 .display-example {
   display: flex;
   flex-direction: row;
-  align-items: stretch;
-  align-content: space-between;
+  align-items: center;
+  justify-content: space-between;
   border-top: 1px solid var(--brand-gold);
   padding: 10px 0;
   width: 100%;
@@ -132,5 +169,7 @@ h2 {
 .highlight {
   background-color: var(--brand-sky-highlight);
   color: var(--brand-blue);
-  font-family: var(--mono);
+  font-family: var(--sans);
+  font-size: 28px;
+  padding: 20px 20px;
 }

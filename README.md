@@ -1,4 +1,4 @@
-# Code for New Orleans Style Guide
+# <img src="https://codefornola.github.io/style_guide/assets/images/cfno-logo.png" width="200" alt="Code for New Orleans" title="Code for New Orleans"/> Style Guide
 
 Style Guide for Code for New Orleans branding for materials and sites.
 
